@@ -9,7 +9,7 @@
 
 var soUsd;
 var tienViet = 23500;
-soUsd = prompt("Nhập số USD muốn qui đổi ? : ","");
+soUsd = prompt("Nhập số USD muốn qui đổi : ","");
 var cdSoUsd = Number(soUsd)
 var ketQua = cdSoUsd * tienViet;
 alert("Tỉ giá quy đổi " + cdSoUsd + " USD = " + ketQua + " Đồng");

@@ -9,7 +9,7 @@
 
 var soNgayLam;
 var tienCong = 100000;
-soNgayLam = prompt("Số ngày làm trong tháng ? : ","");
+soNgayLam = prompt("Số ngày làm trong tháng : ","");
 var cdSoNgayLam = Number(soNgayLam)
 var tienLuong = cdSoNgayLam * tienCong;
 alert("Tiền lương tháng này của bạn là : " + tienLuong + " Đồng");

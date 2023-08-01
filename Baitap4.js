@@ -9,8 +9,8 @@
  */
 
 var chieuDai,chieuRong;
-chieuDai = prompt("Vui lòng nhập chiều dài của hình chữ nhật ? : ","");
-chieuRong = prompt("Vui lòng nhập chiều rộng của hình chữ nhật ? : ","");
+chieuDai = prompt("Vui lòng nhập chiều dài của hình chữ nhật : ","");
+chieuRong = prompt("Vui lòng nhập chiều rộng của hình chữ nhật : ","");
 var cdChieuDai = Number(chieuDai)
 var cdChieuRong = Number(chieuRong)
 var dienTich = cdChieuDai * cdChieuRong;
